@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Include">
+      <UniqueIdentifier>{2029ec57-3998-45b3-8a55-c2e89199ba70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{42ba45d1-4341-4dd3-b084-807c2d1c72a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\Sample">
+      <UniqueIdentifier>{9c8d4735-0fb7-48e1-a84e-c57458ef69a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Sample">
+      <UniqueIdentifier>{2cd98613-e168-4838-bcb8-5e556d5f64a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\Core">
+      <UniqueIdentifier>{b7eb8e5c-6a4b-4bdc-b773-dc59b57b8dd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Core">
+      <UniqueIdentifier>{994c0967-d47d-4c31-b41c-ae009dcce613}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\Util">
+      <UniqueIdentifier>{2a92008e-14a9-4763-8f98-8ca1958eca1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Util">
+      <UniqueIdentifier>{d71c774a-d034-4bf5-811b-a92298824199}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\main.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\Win64\glad\src\glad.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Application.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Sample\GPUDriven.cpp">
+      <Filter>Source\Sample</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Sample\Sample.cpp">
+      <Filter>Source\Sample</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Sample\Triangle.cpp">
+      <Filter>Source\Sample</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\Shader.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Util\StringUtil.cpp">
+      <Filter>Source\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Sample\TextureSample.cpp">
+      <Filter>Source\Sample</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Include\Application.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Sample\GPUDriven.h">
+      <Filter>Include\Sample</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Sample\Sample.h">
+      <Filter>Include\Sample</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Sample\Triangle.h">
+      <Filter>Include\Sample</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Core\Shader.h">
+      <Filter>Include\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Util\StringUtil.h">
+      <Filter>Include\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Sample\TextureSample.h">
+      <Filter>Include\Sample</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Env.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Util\Util.h">
+      <Filter>Include\Util</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
