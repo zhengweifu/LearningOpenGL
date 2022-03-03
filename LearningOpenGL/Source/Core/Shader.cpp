@@ -99,6 +99,38 @@ void FShader::Set(const char* Name, float Value) const
 	glUniform1f(glGetUniformLocation(m_ProgramId, Name), Value);
 }
 
+void FShader::Set(const char* Name, glm::vec2 Value) const
+{
+	glUniform2fv(glGetUniformLocation(m_ProgramId, Name), 1, &Value[0]);
+}
+
+void FShader::Set(const char* Name, glm::vec3 Value) const
+{
+	glUniform3fv(glGetUniformLocation(m_ProgramId, Name), 1, &Value[0]);
+}
+
+void FShader::Set(const char* Name, glm::vec4 Value) const
+{
+	glUniform4fv(glGetUniformLocation(m_ProgramId, Name), 1, &Value[0]);
+}
+
+void FShader::Set(const char* Name, glm::mat2 Value) const
+{
+	glUniformMatrix2fv(glGetUniformLocation(m_ProgramId, Name), 1, GL_FALSE, &Value[0][0]);
+
+}
+
+void FShader::Set(const char* Name, glm::mat3 Value) const
+{
+	glUniformMatrix3fv(glGetUniformLocation(m_ProgramId, Name), 1, GL_FALSE, &Value[0][0]);
+
+}
+
+void FShader::Set(const char* Name, glm::mat4 Value) const
+{
+	glUniformMatrix4fv(glGetUniformLocation(m_ProgramId, Name), 1, GL_FALSE, &Value[0][0]);
+}
+
 void FShader::Destroy()
 {
 	glDeleteProgram(m_ProgramId);

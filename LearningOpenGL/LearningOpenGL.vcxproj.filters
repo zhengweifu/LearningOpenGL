@@ -25,6 +25,24 @@
     <Filter Include="Source\Util">
       <UniqueIdentifier>{d71c774a-d034-4bf5-811b-a92298824199}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source\Core\Camera">
+      <UniqueIdentifier>{bd2cf356-2f41-4906-bcdb-6356718b56f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Core\Object">
+      <UniqueIdentifier>{9992c1bf-5189-44f8-be97-bec1e06f4ecd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Core\Material">
+      <UniqueIdentifier>{45bc717a-b6d9-4e9a-86d4-0474c7358c20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\Core\Camera">
+      <UniqueIdentifier>{6a1daa9a-c005-4438-8714-b821c672c76c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\Core\Material">
+      <UniqueIdentifier>{31a240e2-ed36-4640-8d46-fc94cd7b8f00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\Core\Object">
+      <UniqueIdentifier>{471c8b81-c819-4a5b-8b31-2a5031e21c67}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source\main.cpp">
@@ -54,6 +72,33 @@
     <ClCompile Include="Source\Sample\TextureSample.cpp">
       <Filter>Source\Sample</Filter>
     </ClCompile>
+    <ClCompile Include="Source\Core\Geometry.cpp">
+      <Filter>Source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\Material\Material.cpp">
+      <Filter>Source\Core\Material</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\Material\PBRMaterial.cpp">
+      <Filter>Source\Core\Material</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\Camera\Camera.cpp">
+      <Filter>Source\Core\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\Camera\PerspectiveCamera.cpp">
+      <Filter>Source\Core\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\Object\Mesh.cpp">
+      <Filter>Source\Core\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\Object\Node.cpp">
+      <Filter>Source\Core\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Sample\CameraSample.cpp">
+      <Filter>Source\Sample</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\stbi_image.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Include\Application.h">
@@ -82,6 +127,30 @@
     </ClInclude>
     <ClInclude Include="Include\Util\Util.h">
       <Filter>Include\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Core\Geometry.h">
+      <Filter>Include\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Core\Object\Mesh.h">
+      <Filter>Include\Core\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Core\Object\Node.h">
+      <Filter>Include\Core\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Core\Material\Material.h">
+      <Filter>Include\Core\Material</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Core\Material\PBRMaterial.h">
+      <Filter>Include\Core\Material</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Core\Camera\Camera.h">
+      <Filter>Include\Core\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Core\Camera\PerspectiveCamera.h">
+      <Filter>Include\Core\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Sample\CameraSample.h">
+      <Filter>Include\Sample</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
